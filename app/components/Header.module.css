@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  margin: 1em auto;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.navItem {
+  color: black;
+}
+.navItem:hover {
+  color: white;
+}

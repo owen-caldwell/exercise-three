@@ -1,0 +1,55 @@
+.card {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 300px;
+}
+
+.cityTemp {
+  display: flex;
+  flex-direction: column;
+}
+
+.city {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+}
+
+.temperature {
+  font-size: 54px;
+  font-weight: 700;
+  margin: 5px 0 0;
+  color: black;
+}
+
+.iconContainer {
+  width: 100px;
+  height: 100px;
+}
+.iconContainer * {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.details p {
+  margin: 0;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
